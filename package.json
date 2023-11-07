@@ -1,6 +1,6 @@
 {
   "name": "single-cursor",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "./lib/main",
   "description": "Single cursor & selection commands",
   "engines": {
