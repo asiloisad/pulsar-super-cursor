@@ -17,6 +17,9 @@
   "activationCommands": {
     "atom-text-editor:not([mini])": [
       "single-cursor:toggle",
+      "single-cursor:previous",
+      "single-cursor:next",
+      "single-cursor:highlight",
       "single-cursor:move-up",
       "single-cursor:move-down",
       "single-cursor:move-left",
