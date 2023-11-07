@@ -15,8 +15,16 @@
   </a>
 </p>
 
-A pacakge allows you to create multiple cursors anywhere in the buffer, using only your keyboard. Commands of movement and selection of last cursor has been added. This package is meant for keyboard only navigation.
+![demo](https://github.com/bacadra/pulsar-single-cursor/blob/master/assets/demo.gif?raw=true)
 
+A pacakge allows you to create multiple cursors anywhere in the buffer, using only your keyboard. Commands of movement and selection of only last cursor has been added. This package is meant for keyboard only navigation.
+
+A package features:
+* add new cursor by command `single-cursor:toggle` (default `Ctrl-Alt-Enter`),
+* switch between active cursor by commands `single-cursor:next` (default `Ctrl-Alt-PageUp`) and `single-cursor:previous` (default `Ctrl-Alt-PageDown`),
+* highlight active cursor,
+* do action of single cursor, e.g. `single-cursor:move-up` (default `Ctrl-Alt-Up`),
+* a predefined kemap.
 
 ## Installation
 
@@ -30,4 +38,4 @@ If you have any ideas on how to improve the package, spot any bugs, or would lik
 
 ## Notes
 
-A package has been inspired by [multi-cursor-plus](https://github.com/kankaristo/atom-multi-cursor-plus), but decaffeinated and some problems has been resolved.
+A package has been inspired by [multi-cursor-plus](https://github.com/kankaristo/atom-multi-cursor-plus), but decaffeinated, some problems has been resolved and new options added.
