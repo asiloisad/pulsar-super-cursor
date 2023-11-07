@@ -1,0 +1,10 @@
+'atom-text-editor:not([mini])':
+  'ctrl-alt-pagedown': 'single-cursor:previous'
+  'ctrl-alt-pageup'  : 'single-cursor:next'
+  'ctrl-alt-enter'   : 'single-cursor:toggle'
+  'ctrl-alt-up'      : 'single-cursor:move-up'
+  'ctrl-alt-down'    : 'single-cursor:move-down'
+  'ctrl-alt-left'    : 'single-cursor:move-left'
+  'ctrl-alt-right'   : 'single-cursor:move-right'
+  'ctrl-alt-home'    : 'single-cursor:move-to-first-character-of-line'
+  'ctrl-alt-end'     : 'single-cursor:move-to-end-of-line'
