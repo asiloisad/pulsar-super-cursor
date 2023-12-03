@@ -28,9 +28,7 @@ A package features:
 
 ## Installation
 
-To install `single-cursor` search for [single-cursor](https://web.pulsar-edit.dev/packages/single-cursor) in the Install pane of the Pulsar settings or run `ppm install single-cursor`.
-
-Alternatively, you can run `ppm install bacadra/pulsar-single-cursor` to install a package directly from the Github repository.
+To install `single-cursor` search for [single-cursor](https://web.pulsar-edit.dev/packages/single-cursor) in the Install pane of the Pulsar settings or run `ppm install single-cursor`. Alternatively, you can run `ppm install bacadra/pulsar-single-cursor` to install a package directly from the Github repository.
 
 # Contributing [🍺](https://www.buymeacoffee.com/asiloisad)
 
