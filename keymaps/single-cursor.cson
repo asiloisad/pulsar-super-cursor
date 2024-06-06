@@ -1,4 +1,15 @@
-'atom-text-editor:not([mini])':
+'.platform-darwin atom-text-editor:not([mini])':
+  'cmd-alt-pagedown': 'single-cursor:previous'
+  'cmd-alt-pageup'  : 'single-cursor:next'
+  'cmd-alt-enter'   : 'single-cursor:toggle'
+  'cmd-alt-up'      : 'single-cursor:move-up'
+  'cmd-alt-down'    : 'single-cursor:move-down'
+  'cmd-alt-left'    : 'single-cursor:move-left'
+  'cmd-alt-right'   : 'single-cursor:move-right'
+  'cmd-alt-home'    : 'single-cursor:move-to-first-character-of-line'
+  'cmd-alt-end'     : 'single-cursor:move-to-end-of-line'
+
+'.platform-win32 atom-text-editor:not([mini]), .platform-linux atom-text-editor:not([mini])':
   'ctrl-alt-pagedown': 'single-cursor:previous'
   'ctrl-alt-pageup'  : 'single-cursor:next'
   'ctrl-alt-enter'   : 'single-cursor:toggle'
