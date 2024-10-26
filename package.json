@@ -1,5 +1,5 @@
 {
-  "name": "single-cursor",
+  "name": "super-cursor",
   "version": "1.0.1",
   "main": "./lib/main",
   "description": "Single cursor & selection commands",
