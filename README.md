@@ -1,23 +1,23 @@
-# single-cursor
+# super-cursor
 
-![demo](https://github.com/bacadra/pulsar-single-cursor/blob/master/assets/demo.gif?raw=true)
+![demo](https://github.com/bacadra/pulsar-super-cursor/blob/master/assets/demo.gif?raw=true)
 
 A pacakge allows you to create multiple cursors anywhere in the buffer, using only your keyboard. Commands of movement and selection of only last cursor has been added. This package is meant for keyboard only navigation.
 
 A package features:
-- add new cursor by command `single-cursor:toggle` (default `Ctrl-Alt-Enter`),
-- switch between active cursor by commands `single-cursor:next` (default `Ctrl-Alt-PageUp`) and `single-cursor:previous` (default `Ctrl-Alt-PageDown`),
+- add new cursor by command `super-cursor:toggle` (default `Ctrl-Alt-Enter`),
+- switch between active cursor by commands `super-cursor:next` (default `Ctrl-Alt-PageUp`) and `super-cursor:previous` (default `Ctrl-Alt-PageDown`),
 - highlight active cursor,
-- do action of single cursor, e.g. `single-cursor:move-up` (default `Ctrl-Alt-Up`),
+- do action of single cursor, e.g. `super-cursor:move-up` (default `Ctrl-Alt-Up`),
 - a predefined keyboard shortcuts.
 
 ## Installation
 
-To install `single-cursor` search for [single-cursor](https://web.pulsar-edit.dev/packages/single-cursor) in the Install pane of the Pulsar settings or run `ppm install single-cursor`. Alternatively, you can run `ppm install bacadra/pulsar-single-cursor` to install a package directly from the Github repository.
+To install `super-cursor` search for [super-cursor](https://web.pulsar-edit.dev/packages/super-cursor) in the Install pane of the Pulsar settings or run `ppm install super-cursor`. Alternatively, you can run `ppm install bacadra/pulsar-super-cursor` to install a package directly from the Github repository.
 
 # Contributing
 
-If you have any ideas on how to improve the package, spot any bugs, or would like to support the development of new features, please feel free to share them via GitHub.
+Got ideas to make this package better, found a bug, or want to help add new features? Just drop your thoughts on GitHub — any feedback’s welcome!
 
 ## Notes
 
