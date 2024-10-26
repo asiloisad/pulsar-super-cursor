@@ -1,18 +1,14 @@
 # super-cursor
 
-A superset of commands to improve multi-cursor workflow.
+A superset of commands to improve multi-cursor workflow. A package allows you to create multiple cursors anywhere in the text-editor (inc. mini) using only your keyboard. Commands for moving and selecting the last cursor have been added. This package is intended for keyboard-only navigation.
 
 ![demo](https://github.com/bacadra/pulsar-super-cursor/blob/master/assets/demo.gif?raw=true)
-
-A pacakge allows you to create multiple cursors anywhere in the buffer, using only your keyboard. Commands of movement and selection of only last cursor has been added. This package is meant for keyboard only navigation.
-
-## Features
 
 A package features:
 
 - add new cursor by command `super-cursor:toggle` (default `Ctrl-Alt-Enter`),
 - switch between active cursor by commands `super-cursor:next` (default `Ctrl-Alt-PageUp`) and `super-cursor:previous` (default `Ctrl-Alt-PageDown`),
-- highlight actived cursor,
+- highlight recently activeted (or added) cursor,
 - commands of single cursor, e.g. `super-cursor:move-up` (default `Ctrl-Alt-Up`),
 - a predefined keyboard shortcuts.
 
