@@ -15,7 +15,7 @@
   "url": "https://github.com/bacadra/pulsar-super-cursor",
   "repository": "https://github.com/bacadra/pulsar-super-cursor",
   "activationCommands": {
-    "atom-text-editor:not([mini])": [
+    "atom-text-editor": [
       "super-cursor:toggle",
       "super-cursor:previous",
       "super-cursor:next",

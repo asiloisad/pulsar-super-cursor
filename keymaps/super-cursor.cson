@@ -1,4 +1,4 @@
-'.platform-darwin atom-text-editor:not([mini])':
+'.platform-darwin atom-text-editor':
   'cmd-alt-pagedown': 'super-cursor:previous'
   'cmd-alt-pageup'  : 'super-cursor:next'
   'cmd-alt-enter'   : 'super-cursor:toggle'
@@ -9,7 +9,7 @@
   'cmd-alt-home'    : 'super-cursor:move-to-first-character-of-line'
   'cmd-alt-end'     : 'super-cursor:move-to-end-of-line'
 
-'.platform-win32 atom-text-editor:not([mini]), .platform-linux atom-text-editor:not([mini])':
+'.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
   'ctrl-alt-pagedown': 'super-cursor:previous'
   'ctrl-alt-pageup'  : 'super-cursor:next'
   'ctrl-alt-enter'   : 'super-cursor:toggle'
