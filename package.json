@@ -1,6 +1,6 @@
 {
   "name": "super-cursor",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "main": "./lib/main",
   "description": "A superset of commands to improve multi-cursor workflow",
   "engines": {
