@@ -7,8 +7,6 @@
   'cmd-alt-down'     : 'super-cursor:move-down'
   'cmd-alt-left'     : 'super-cursor:move-left'
   'cmd-alt-right'    : 'super-cursor:move-right'
-  'cmd-alt-home'     : 'super-cursor:move-to-first-character-of-line'
-  'cmd-alt-end'      : 'super-cursor:move-to-end-of-line'
 
 '.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
   'ctrl-alt-insert'  : 'super-cursor:power'
@@ -19,5 +17,3 @@
   'ctrl-alt-down'    : 'super-cursor:move-down'
   'ctrl-alt-left'    : 'super-cursor:move-left'
   'ctrl-alt-right'   : 'super-cursor:move-right'
-  'ctrl-alt-home'    : 'super-cursor:move-to-first-character-of-line'
-  'ctrl-alt-end'     : 'super-cursor:move-to-end-of-line'
