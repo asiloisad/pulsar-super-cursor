@@ -17,6 +17,7 @@ To install `super-cursor` search for [super-cursor](https://web.pulsar-edit.dev/
 - A predefined keyboard shortcuts for single cursor movement.
 - Power mode (default `Ctrl-Alt-Insert`) allow you make all cursor operations, but only active cursor used.
 - Cursor consolidation going to place last cursor at position of active cursor.
+- Package is compatible with `overtype-mode`.
 - If power mode is active, then class list of text-editor is extended by `super-cursor`.
 
 # Contributing

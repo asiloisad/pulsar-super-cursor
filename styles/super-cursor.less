@@ -1,5 +1,16 @@
 @import "ui-variables";
 
-atom-text-editor .cursor.super-cursor-highlight {
+atom-text-editor .cursors .cursor.super-cursor-highlight {
   border-left-color: @text-color-error;
+}
+
+atom-text-editor.overtype-cursor .cursors .cursor.super-cursor-highlight
+{
+  border: 1px solid @text-color-error;
+  background-color: fade(@text-color-error, 20%);
+}
+
+atom-text-editor.overtype-cursor .cursors.blink-off .cursor.super-cursor-highlight
+{
+  border: none;
 }
