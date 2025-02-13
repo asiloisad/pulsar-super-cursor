@@ -3,9 +3,10 @@
   "description": "A superset of commands to improve multi-cursor workflow",
   "repository": "https://github.com/bacadra/pulsar-super-cursor",
   "keywords": [
-    "bacadra",
     "cursor",
-    "selection"
+    "selection",
+    "single",
+    "multi"
   ],
   "version": "3.2.0",
   "license": "MIT",
