@@ -2,11 +2,11 @@
 
 A superset of commands to improve multi-cursor workflow. A package allows you to create multiple cursors anywhere in the text-editor (inc. mini) using only your keyboard. This package is intended for keyboard-only navigation.
 
-![demo](https://github.com/bacadra/pulsar-super-cursor/blob/master/assets/demo.gif?raw=true)
+![demo](https://github.com/asiloisad/pulsar-super-cursor/blob/master/assets/demo.gif?raw=true)
 
 ## Installation
 
-To install `super-cursor` search for [super-cursor](https://web.pulsar-edit.dev/packages/super-cursor) in the Install pane of the Pulsar settings or run `ppm install super-cursor`. Alternatively, you can run `ppm install bacadra/pulsar-super-cursor` to install a package directly from the Github repository.
+To install `super-cursor` search for [super-cursor](https://web.pulsar-edit.dev/packages/super-cursor) in the Install pane of the Pulsar settings or run `ppm install super-cursor`. Alternatively, you can run `ppm install asiloisad/pulsar-super-cursor` to install a package directly from the Github repository.
 
 ## Features
 

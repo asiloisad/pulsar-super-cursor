@@ -1,7 +1,7 @@
 {
   "name": "super-cursor",
   "description": "A superset of commands to improve multi-cursor workflow",
-  "repository": "https://github.com/bacadra/pulsar-super-cursor",
+  "repository": "https://github.com/asiloisad/pulsar-super-cursor",
   "keywords": [
     "cursor",
     "selection",
