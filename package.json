@@ -13,5 +13,22 @@
   "engines": {
     "atom": ">=1.100.0 <2.0.0"
   },
-  "main": "./lib/main"
+  "main": "./lib/main",
+  "configSchema": {
+    "cursorDecoration": {
+      "order": 1,
+      "title": "Decoration of the last cursor",
+      "description": "The main cursor is marked with special CSS when the number of cursors is more than two.",
+      "type": "boolean",
+      "default": true
+    },
+    "decorationTime": {
+      "order": 2,
+      "title": "Time to disappear cursor decoration",
+      "description": "Set the time in ms after which decoration disappears. If the timer is set to zero, the decoration is permanent.",
+      "type": "integer",
+      "minimum": 0,
+      "default": 2000
+    }
+  }
 }
