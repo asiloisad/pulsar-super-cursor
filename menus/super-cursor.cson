@@ -1,0 +1,15 @@
+'menu': [
+  {
+    label: 'Packages'
+    submenu: [
+      {
+        label: 'Super Cursor'
+        submenu: [
+          { label: 'Power', command: 'super-cursor:power' }
+          { label: 'Toggle', command: 'super-cursor:toggle' }
+          { label: 'Previous', command: 'super-cursor:previous' }
+        ]
+      }
+    ]
+  }
+]
