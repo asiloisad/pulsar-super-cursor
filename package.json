@@ -1,6 +1,6 @@
 {
   "name": "super-cursor",
-  "description": "A superset of commands to improve multi-cursor workflow",
+  "description": "Keyboard-driven multi-cursor creation and navigation commands",
   "repository": "https://github.com/asiloisad/pulsar-super-cursor",
   "keywords": [
     "cursor",
