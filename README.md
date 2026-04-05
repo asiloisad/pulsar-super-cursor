@@ -1,8 +1,8 @@
-# super-cursor
+# cursor-leader
 
 Keyboard-driven multi-cursor creation and navigation commands.
 
-![demo](https://github.com/asiloisad/pulsar-super-cursor/blob/master/assets/demo.gif?raw=true)
+![demo](https://github.com/asiloisad/pulsar-cursor-leader/blob/master/assets/demo.gif?raw=true)
 
 ## Features
 
@@ -16,74 +16,74 @@ Keyboard-driven multi-cursor creation and navigation commands.
 
 ## Installation
 
-To install `super-cursor` search for [super-cursor](https://web.pulsar-edit.dev/packages/super-cursor) in the Install pane of the Pulsar settings or run `ppm install super-cursor`. Alternatively, you can run `ppm install asiloisad/pulsar-super-cursor` to install a package directly from the GitHub repository.
+To install `cursor-leader` search for [cursor-leader](https://web.pulsar-edit.dev/packages/cursor-leader) in the Install pane of the Pulsar settings or run `ppm install cursor-leader`. Alternatively, you can run `ppm install asiloisad/pulsar-cursor-leader` to install a package directly from the GitHub repository.
 
 ## Commands
 
 Commands available in `atom-text-editor`:
 
-- `super-cursor:power-global`: <kbd>Ctrl+Alt+Insert</kbd> toggle power mode for all editors,
-- `super-cursor:power-editor`: <kbd>Ctrl+Shift+Alt+Insert</kbd> toggle power mode for the active editor,
-- `super-cursor:toggle`: toggle cursor instance,
-- `super-cursor:previous`: <kbd>Ctrl+Alt+PageUp</kbd> activate next cursor,
-- `super-cursor:next`: <kbd>Ctrl+Alt+PageDown</kbd> activate previous cursor,
-- `super-cursor:reset`,
-- `super-cursor:remove`,
-- `super-cursor:move-up`: <kbd>Ctrl+Alt+Up</kbd>,
-- `super-cursor:move-down`: <kbd>Ctrl+Alt+Down</kbd>,
-- `super-cursor:move-left`: <kbd>Ctrl+Alt+Left</kbd>,
-- `super-cursor:move-right`: <kbd>Ctrl+Alt+Right</kbd>,
-- `super-cursor:move-to-top`,
-- `super-cursor:move-to-bottom`,
-- `super-cursor:move-to-beginning-of-screen-line`,
-- `super-cursor:move-to-beginning-of-line`,
-- `super-cursor:move-to-first-character-of-line`,
-- `super-cursor:move-to-end-of-screen-line`,
-- `super-cursor:move-to-end-of-line`,
-- `super-cursor:move-to-beginning-of-word`,
-- `super-cursor:move-to-end-of-word`,
-- `super-cursor:move-to-beginning-of-next-word`,
-- `super-cursor:move-to-previous-word-boundary`,
-- `super-cursor:move-to-next-word-boundary`,
-- `super-cursor:move-to-previous-subword-boundary`,
-- `super-cursor:move-to-next-subword-boundary`,
-- `super-cursor:skip-leading-whitespace`,
-- `super-cursor:move-to-beginning-of-next-paragraph`,
-- `super-cursor:move-to-beginning-of-previous-paragraph`,
-- `super-cursor:select-right`,
-- `super-cursor:select-left`,
-- `super-cursor:select-up`,
-- `super-cursor:select-down`,
-- `super-cursor:select-to-top`,
-- `super-cursor:select-to-bottom`,
-- `super-cursor:select-to-beginning-of-line`,
-- `super-cursor:select-to-first-character-of-line`,
-- `super-cursor:select-to-end-of-line`,
-- `super-cursor:select-to-end-of-buffer-line`,
-- `super-cursor:select-to-beginning-of-word`,
-- `super-cursor:select-to-end-of-word`,
-- `super-cursor:select-to-beginning-of-next-word`,
-- `super-cursor:select-to-previous-word-boundary`,
-- `super-cursor:select-to-next-word-boundary`,
-- `super-cursor:select-to-previous-subword-boundary`,
-- `super-cursor:select-to-nextsubword-boundary`,
-- `super-cursor:select-to-beginning-of-next-paragraph`,
-- `super-cursor:select-to-beginning-of-previous-paragraph`,
-- `super-cursor:select-word`,
-- `super-cursor:expand-over-word`,
-- `super-cursor:expand-over-line`,
-- `super-cursor:outdent-selected-rows`,
-- `super-cursor:toggle-line-comments`,
-- `super-cursor:indent-selected-rows`.
+- `cursor-leader:power-global`: <kbd>Ctrl+Alt+Insert</kbd> toggle power mode for all editors,
+- `cursor-leader:power-editor`: <kbd>Ctrl+Shift+Alt+Insert</kbd> toggle power mode for the active editor,
+- `cursor-leader:toggle`: toggle cursor instance,
+- `cursor-leader:previous`: <kbd>Ctrl+Alt+PageUp</kbd> activate next cursor,
+- `cursor-leader:next`: <kbd>Ctrl+Alt+PageDown</kbd> activate previous cursor,
+- `cursor-leader:reset`,
+- `cursor-leader:remove`,
+- `cursor-leader:move-up`: <kbd>Ctrl+Alt+Up</kbd>,
+- `cursor-leader:move-down`: <kbd>Ctrl+Alt+Down</kbd>,
+- `cursor-leader:move-left`: <kbd>Ctrl+Alt+Left</kbd>,
+- `cursor-leader:move-right`: <kbd>Ctrl+Alt+Right</kbd>,
+- `cursor-leader:move-to-top`,
+- `cursor-leader:move-to-bottom`,
+- `cursor-leader:move-to-beginning-of-screen-line`,
+- `cursor-leader:move-to-beginning-of-line`,
+- `cursor-leader:move-to-first-character-of-line`,
+- `cursor-leader:move-to-end-of-screen-line`,
+- `cursor-leader:move-to-end-of-line`,
+- `cursor-leader:move-to-beginning-of-word`,
+- `cursor-leader:move-to-end-of-word`,
+- `cursor-leader:move-to-beginning-of-next-word`,
+- `cursor-leader:move-to-previous-word-boundary`,
+- `cursor-leader:move-to-next-word-boundary`,
+- `cursor-leader:move-to-previous-subword-boundary`,
+- `cursor-leader:move-to-next-subword-boundary`,
+- `cursor-leader:skip-leading-whitespace`,
+- `cursor-leader:move-to-beginning-of-next-paragraph`,
+- `cursor-leader:move-to-beginning-of-previous-paragraph`,
+- `cursor-leader:select-right`,
+- `cursor-leader:select-left`,
+- `cursor-leader:select-up`,
+- `cursor-leader:select-down`,
+- `cursor-leader:select-to-top`,
+- `cursor-leader:select-to-bottom`,
+- `cursor-leader:select-to-beginning-of-line`,
+- `cursor-leader:select-to-first-character-of-line`,
+- `cursor-leader:select-to-end-of-line`,
+- `cursor-leader:select-to-end-of-buffer-line`,
+- `cursor-leader:select-to-beginning-of-word`,
+- `cursor-leader:select-to-end-of-word`,
+- `cursor-leader:select-to-beginning-of-next-word`,
+- `cursor-leader:select-to-previous-word-boundary`,
+- `cursor-leader:select-to-next-word-boundary`,
+- `cursor-leader:select-to-previous-subword-boundary`,
+- `cursor-leader:select-to-nextsubword-boundary`,
+- `cursor-leader:select-to-beginning-of-next-paragraph`,
+- `cursor-leader:select-to-beginning-of-previous-paragraph`,
+- `cursor-leader:select-word`,
+- `cursor-leader:expand-over-word`,
+- `cursor-leader:expand-over-line`,
+- `cursor-leader:outdent-selected-rows`,
+- `cursor-leader:toggle-line-comments`,
+- `cursor-leader:indent-selected-rows`.
 
 ## Power mode
 
-Power mode isolates all editor operations to the active cursor only. When enabled, built-in commands (typing, deletion, indentation, etc.) as well as `super-cursor` move and select commands affect only the active cursor, leaving all other cursors untouched.
+Power mode isolates all editor operations to the active cursor only. When enabled, built-in commands (typing, deletion, indentation, etc.) as well as `cursor-leader` move and select commands affect only the active cursor, leaving all other cursors untouched.
 
 There are two scopes:
 
-- **Global** (`super-cursor:power-global` <kbd>Ctrl+Alt+Insert</kbd>): enables power mode for all open editors and any editor opened afterward. The <kbd>⚡</kbd> status bar icon reflects this state and clicking it toggles global power mode.
-- **Editor** (`super-cursor:power-editor` <kbd>Ctrl+Shift+Alt+Insert</kbd>): toggles power mode for the active editor only, independently of the global state.
+- **Global** (`cursor-leader:power-global` <kbd>Ctrl+Alt+Insert</kbd>): enables power mode for all open editors and any editor opened afterward. The <kbd>⚡</kbd> status bar icon reflects this state and clicking it toggles global power mode.
+- **Editor** (`cursor-leader:power-editor` <kbd>Ctrl+Shift+Alt+Insert</kbd>): toggles power mode for the active editor only, independently of the global state.
 
 Use cases:
 
@@ -97,7 +97,7 @@ The style can be adjusted according to user preferences in the `styles.less` fil
 - e.g. change active cursor highlight color:
 
 ```less
-atom-text-editor .cursors .cursor.super-cursor-highlight {
+atom-text-editor .cursors .cursor.cursor-leader-highlight {
   border-left-color: @text-color-warning;
 }
 ```

@@ -1,0 +1,21 @@
+'.platform-darwin atom-text-editor':
+  'cmd-shift-alt-insert'   : 'cursor-leader:power-editor'
+  'cmd-alt-insert'         : 'cursor-leader:power-global'
+  'cmd-alt-pageup'         : 'cursor-leader:previous'
+  'cmd-alt-pagedown'       : 'cursor-leader:next'
+  'cmd-alt-enter'          : 'cursor-leader:toggle'
+  'cmd-alt-up'             : 'cursor-leader:move-up'
+  'cmd-alt-down'           : 'cursor-leader:move-down'
+  'cmd-alt-left'           : 'cursor-leader:move-left'
+  'cmd-alt-right'          : 'cursor-leader:move-right'
+
+'.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
+  'ctrl-shift-alt-insert'  : 'cursor-leader:power-editor'
+  'ctrl-alt-insert'        : 'cursor-leader:power-global'
+  'ctrl-alt-pageup'        : 'cursor-leader:previous'
+  'ctrl-alt-pagedown'      : 'cursor-leader:next'
+  'ctrl-alt-enter'         : 'cursor-leader:toggle'
+  'ctrl-alt-up'            : 'cursor-leader:move-up'
+  'ctrl-alt-down'          : 'cursor-leader:move-down'
+  'ctrl-alt-left'          : 'cursor-leader:move-left'
+  'ctrl-alt-right'         : 'cursor-leader:move-right'

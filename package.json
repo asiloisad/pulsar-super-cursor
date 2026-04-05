@@ -1,7 +1,7 @@
 {
   "name": "super-cursor",
   "description": "Keyboard-driven multi-cursor creation and navigation commands",
-  "repository": "https://github.com/asiloisad/pulsar-super-cursor",
+  "repository": "https://github.com/asiloisad/pulsar-cursor-leader",
   "keywords": [
     "cursor",
     "selection",

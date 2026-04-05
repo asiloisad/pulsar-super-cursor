@@ -1,6 +1,6 @@
 @import "ui-variables";
 
-.status-bar .super-cursor-status {
+.status-bar .cursor-leader-status {
   cursor: pointer;
 
   .icon::before {
@@ -12,17 +12,17 @@
   }
 }
 
-atom-text-editor .cursors .cursor.super-cursor-highlight {
+atom-text-editor .cursors .cursor.cursor-leader-highlight {
   border-left-color: @text-color-error;
 }
 
-atom-text-editor.overtype-cursor .cursors .cursor.super-cursor-highlight
+atom-text-editor.overtype-cursor .cursors .cursor.cursor-leader-highlight
 {
   border: 1px solid @text-color-error;
   background-color: fade(@text-color-error, 20%);
 }
 
-atom-text-editor.overtype-cursor .cursors.blink-off .cursor.super-cursor-highlight
+atom-text-editor.overtype-cursor .cursors.blink-off .cursor.cursor-leader-highlight
 {
   border: none;
 }
