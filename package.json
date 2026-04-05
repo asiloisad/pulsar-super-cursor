@@ -14,6 +14,13 @@
     "atom": ">=1.100.0 <2.0.0"
   },
   "main": "./lib/main",
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  },
   "configSchema": {
     "cursorDecoration": {
       "order": 1,

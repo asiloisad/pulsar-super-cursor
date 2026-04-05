@@ -1,5 +1,17 @@
 @import "ui-variables";
 
+.status-bar .super-cursor-status {
+  cursor: pointer;
+
+  .icon::before {
+    margin-right: 0;
+  }
+
+  .power {
+    color: @text-color-success;
+  }
+}
+
 atom-text-editor .cursors .cursor.super-cursor-highlight {
   border-left-color: @text-color-error;
 }
