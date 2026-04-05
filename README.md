@@ -13,6 +13,7 @@ Keyboard-driven multi-cursor creation and navigation commands.
 - **Power mode**: Temporarily isolate active cursor for all operations.
 - **Cursor consolidation**: Merge all cursors to the active cursor position.
 - **Overtype compatibility**: Works with [overtype-mode](https://github.com/asiloisad/pulsar-overtype-mode).
+- **Column selection compatibility**: Works with [column-selection](https://github.com/asiloisad/pulsar-column-selection), including in power mode.
 
 ## Installation
 
