@@ -22,7 +22,8 @@ To install `super-cursor` search for [super-cursor](https://web.pulsar-edit.dev/
 
 Commands available in `atom-text-editor`:
 
-- `super-cursor:power`: <kbd>Ctrl+Alt+Insert</kbd> toggle state of power mode,
+- `super-cursor:power-global`: <kbd>Ctrl+Alt+Insert</kbd> toggle power mode for all editors,
+- `super-cursor:power-editor`: <kbd>Ctrl+Shift+Alt+Insert</kbd> toggle power mode for the active editor,
 - `super-cursor:toggle`: toggle cursor instance,
 - `super-cursor:previous`: <kbd>Ctrl+Alt+PageUp</kbd> activate next cursor,
 - `super-cursor:next`: <kbd>Ctrl+Alt+PageDown</kbd> activate previous cursor,
@@ -74,6 +75,20 @@ Commands available in `atom-text-editor`:
 - `super-cursor:outdent-selected-rows`,
 - `super-cursor:toggle-line-comments`,
 - `super-cursor:indent-selected-rows`.
+
+## Power mode
+
+Power mode isolates all editor operations to the active cursor only. When enabled, built-in commands (typing, deletion, indentation, etc.) as well as `super-cursor` move and select commands affect only the active cursor, leaving all other cursors untouched.
+
+There are two scopes:
+
+- **Global** (`super-cursor:power-global` <kbd>Ctrl+Alt+Insert</kbd>): enables power mode for all open editors and any editor opened afterward. The <kbd>⚡</kbd> status bar icon reflects this state and clicking it toggles global power mode.
+- **Editor** (`super-cursor:power-editor` <kbd>Ctrl+Shift+Alt+Insert</kbd>): toggles power mode for the active editor only, independently of the global state.
+
+Use cases:
+
+- Adjust one cursor's position without disturbing the others before a coordinated edit.
+- Delete or select text on a single cursor while keeping remaining cursors in place.
 
 ## Customization
 
